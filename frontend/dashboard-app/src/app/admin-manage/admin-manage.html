@@ -1,0 +1,58 @@
+<div class="container" style="padding: 20px;">
+  
+  <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
+    <h2>Manage Analytics Data</h2>
+    <button (click)="goBack()" class="btn btn-secondary">Back to Dashboard</button>
+  </div>
+
+  <div style="border: 1px solid #ccc; padding: 20px; margin-bottom: 20px; border-radius: 8px;">
+    <h3>{{ isEditMode ? 'Edit Data' : 'Add New Data' }}</h3>
+    
+    <form (ngSubmit)="onSubmit()">
+      <div style="margin-bottom: 10px;">
+        <label>Month:</label>
+        <input type="text" [(ngModel)]="formModel.month" name="month" required class="form-control">
+      </div>
+
+      <div style="margin-bottom: 10px;">
+        <label>Sales:</label>
+        <input type="number" [(ngModel)]="formModel.sales" name="sales" required class="form-control">
+      </div>
+
+      <div style="margin-bottom: 10px;">
+        <label>Active Users:</label>
+        <input type="number" [(ngModel)]="formModel.activeUsers" name="activeUsers" required class="form-control">
+      </div>
+
+      <button type="submit" class="btn btn-primary">
+        {{ isEditMode ? 'Update' : 'Add' }}
+      </button>
+      
+      <button type="button" *ngIf="isEditMode" (click)="resetForm()" class="btn btn-secondary" style="margin-left: 10px;">
+        Cancel
+      </button>
+    </form>
+  </div>
+
+  <table class="table table-bordered">
+    <thead class="thead-dark">
+      <tr>
+        <th>Month</th>
+        <th>Sales</th>
+        <th>Active Users</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let item of dataList">
+        <td>{{ item.month }}</td>
+        <td>{{ item.sales }}</td>
+        <td>{{ item.activeUsers }}</td>
+        <td>
+          <button (click)="onEdit(item)" class="btn btn-warning btn-sm">Edit</button>
+          <button (click)="onDelete(item._id)" class="btn btn-danger btn-sm" style="margin-left: 5px;">Delete</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
