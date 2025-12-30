@@ -87,8 +87,23 @@ App runs at: http://localhost:4200
 │         └── package.json    
 │
 │
-│── backend
-│    ├── models.js
-│    ├── server.js
-│    └── package.json
+└── backend
+     ├── models.js
+     ├── server.js
+     └── package.json
 ```
+
+---
+
+## 🟢 Project Screenshots
+**Login Page**
+![Login Page](./public%20images/login.png)
+
+**Register Page**
+![Register Page](./public%20images/register.png)
+
+**Admin Dashboard**
+![Admin Dashboard](./public%20images/admin_dashboard.png)
+
+**Manage Data Analysis**
+![Manage Data](./public%20images/manage_data.png)
