@@ -19,7 +19,7 @@ This project provides secure authentication, an interactive analytics dashboard 
 ## 🛠️ Tech Stack
 
 ### Frontend
-- Angular (Standalone Components)
+- Angular
 - Chart.js
 - HTML5, CSS3
 - Tailwind CSS
