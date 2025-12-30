@@ -103,13 +103,13 @@ App runs at: http://localhost:4200
 
 ## 🟢 Project Screenshots
 **Login Page**
-![Login Page](./public%20images/login.png)
+![Login Page](./public-images/login.png)
 
 **Register Page**
-![Register Page](./public%20images/register.png)
+![Register Page](./public-images/register.png)
 
 **Admin Dashboard**
-![Admin Dashboard](./public%20images/admins_dashboard.png)
+![Admin Dashboard](./public-images/admins_dashboard.png)
 
 **Manage Data Analysis**
-![Manage Data](./public%20images/manage_data.png)
+![Manage Data](./public-images/manage_data.png)
