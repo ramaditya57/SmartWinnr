@@ -103,7 +103,7 @@ App runs at: http://localhost:4200
 ![Register Page](./public%20images/register.png)
 
 **Admin Dashboard**
-![Admin Dashboard](./public%20images/admin_dashboard.png)
+![Admin Dashboard](./public%20images/admins_dashboard.png)
 
 **Manage Data Analysis**
 ![Manage Data](./public%20images/manage_data.png)
