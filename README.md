@@ -27,7 +27,7 @@ This project provides secure authentication, an interactive analytics dashboard 
 ### Backend
 - Node.js
 - Express.js
-- MongoDB (Atlas)
+- MongoDB
 - Mongoose
 - CORS, Body-Parser
 
