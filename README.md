@@ -5,11 +5,6 @@ This project provides secure authentication, an interactive analytics dashboard 
 
 ---
 
-## 🟢 Project Status
-**Active & Maintained**
-
----
-
 ## 🚀 Features
 
 - 🔐 Secure Login & Registration
