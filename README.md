@@ -87,10 +87,16 @@ App runs at: http://localhost:4200
 │         └── package.json    
 │
 │
-└── backend
-     ├── models.js
-     ├── server.js
-     └── package.json
+│── backend
+│    ├── models.js
+│    ├── server.js
+│    └── package.json
+│
+│
+│── public-images/
+│── .gitignore
+└── README.md
+
 ```
 
 ---
